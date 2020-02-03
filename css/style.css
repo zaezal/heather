@@ -1,0 +1,121 @@
+
+/*hyekil shim 991585536 Trafalgar campus*/
+
+body{
+	width: 800px;
+	margin: 0 auto;
+	box-shadow: 0 5px 10px #fbfcdb;
+	border: 2px solid #09011d;
+	
+	background-size: cover;
+	background-attachment: fixed;
+	color: #f3f3f3;
+}
+.quizbox{
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	
+	padding: 20px;
+}
+
+.heading{
+	width: 750px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 50px 50px;
+	                      
+	grid-template-areas: "left middle right";
+	                    
+	                   
+	border-top: 5px solid rgb(75, 8, 231);
+	border-bottom: 5px solid rgb(75, 8, 231);
+	text-align : center;
+	font-size: 130%;
+}
+.left {grid-area:left;}
+.middle {grid-area:middle;}
+.right {grid-area:right;}
+
+.grid-form{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: "grid1"
+                         "grid2"
+						 "grid3"
+						 "grid5"
+						 "grid6";
+						 
+    grid-row-gap: 25px; 
+    	   
+	margin: 20px auto;
+	width: 700px;
+	box-shadow:0 0 10px grey;
+	padding: 20px;
+}
+.grid1 {grid-area:grid1;}
+
+
+.grid5 {grid-area:grid5;}
+.grid6 {grid-area:grid6;}
+
+
+
+.grid1>div{
+	height:130px;
+
+}
+.grid2>div{
+	height:130px;
+
+}
+.grid3>div{
+	height:130px;
+
+}
+
+.form-field text {
+	font-size: 13px;
+}
+
+
+.submit{
+    float:left;
+	width:  120px;
+	height: 30px;
+    
+}
+.nextbtn {
+    float:right;
+	width : 120px;
+	height : 30px;
+	
+}
+
+#help {
+	clear;
+	float:right;
+	width : 120px;
+	height : 30px;
+}
+#reset{
+	clear;
+    float:left;
+	width: 120px;
+	height: 30px;
+	
+
+}
+.grid-form>div{
+	width:500px;
+	padding: 20px;
+	border : 2px solid white;
+}
+
+
+label{
+	font-size: 12px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- hyekil shim 991585536 Trafalgar campus-->
+<html> 
+<head>
+	<title>Hyekil Shim</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src = "js/quiz.js"></script>
+	<!--
+	<script>
+	    function processForm(){
+			
+			var firstname = document.getElementById('firstname').value;
+			var lastname = document.getElementById('lastname').value;
+			
+			var membership = document.getElementById('membership').value;
+			var message = 'Thanks for submitting the form! Here is the data you gave us:\n';
+			message += 'Customer Fullname: ' + firstname + ' ' + lastname + '\n';
+			
+			message += 'Membership Number: ' + membership + '\n'; 
+			alert(message); 
+			return false; //stops the form from submitting
+
+		}
+		
+	</script> -->
+</head>
+<body>
+<div class="quizbox">
+	<header>
+		<section class="heading">
+			<div class="left"><h2>Hyekil Shim</h2></div>
+			<div class="middle"><h2>Assignment #1</h2></div>
+			<div class="right"><h2>991585536</h2></div>
+		</section>
+	
+	</header>
+	<main>
+        
+            
+                <div class = "grid-form">
+                    
+                    <form name ="quiz1" id="question1" class="grid1" method="post">
+                        
+				
+						
+						<label><h2> 1. What is a fundamental characteristic of the Canadian heritage and identity?</h2> </label>
+						
+								
+						 <input type="radio" id ="a1" name="an" value="Toronto" /> A.Hockey <br>
+						 
+						 <input type="radio" id ="a1" name="an" value="Ottawa" /> B.Maple Syrup <br>
+						
+						 <input type="radio" id ="a1" name="an" value="VAncouver" /> C.Multiculturalism <br>
+						 
+						 <input type="radio" id ="a1" name="an" value="Montreal" /> D.Habeas Corpus <br>
+
+				   </form>
+					 
+			  
+				
+				<form name="quiz2" id ="question2" class = "grid2">
+				
+						
+						<label><h2 > 2. Red and white have been the national colours of Canada since…?</h2> </label>
+						
+								
+						 <input type="radio" id ="a2" name="an" value="Maple"/> A.1911 <br>
+						 
+						 <input type="radio" id ="a2" name="an" value="Ice"/> B.1931 <br>
+						
+						 <input type="radio" id ="a2" name="an" value="Hockey"/> C.1901 <br>
+						 
+						 <input type="radio" id ="a2" name="an" value="Tim"/> D.1921<br>
+						 
+					 
+					
+				</form>
+				<form name = "quiz3" id="question3" class = "grid3">
+				
+						
+						<label><h2 > 3. What do Canadians normally wear on Remembrance Day?</h2> </label>
+						
+								
+						 <input type="radio" id ="a3" name="an" value="Russia"/> A. A White shirt <br>
+						 
+						 <input type="radio" id ="a3" name="an" value="Canada"/> B. A green shirt <br>
+						
+						 <input type="radio" id ="a3" name="an" value="China"/> C. A red poppy <br>
+						 
+						 <input type="radio" id ="a3" name="an" value="USA"/> D. A black tie <br>
+						 
+						 
+					
+				
+			</form>
+				
+				
+			
+
+            <div class = "grid5">
+			   <div class ="form-field">
+			     	<button id="enterAnswer" class="submit" onclick="enterAnswer()">Enter Answer</button> 
+					
+					<div class ="clear"></div>
+					<button id="nextButton" class="nextbtn" onclick="next()">Next Question</button> 
+					
+				
+			   </div>
+			
+			<br>
+			<br>
+			<br>
+			
+			   <div class ="form-field">
+			   	    <a href="http://www.triviaplaza.com/">
+                     <input type="button" id ="help" value="help" /> </a>
+			   	     <input type="button" id ="reset" onclick="reset()" value="Reset"/>
+                     
+				
+					
+			   </div>
+			</div>
+		
+
+			  </div>
+		
+	</main>
+	
+</div>
+</body>
+</html>
+
