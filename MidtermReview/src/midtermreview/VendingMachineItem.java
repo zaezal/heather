@@ -20,7 +20,7 @@ public class VendingMachineItem
 {
     public double price;
     // replace string constants with enumerations
-    // how to? 
+    // how to? I don't know~
     public static String [] candies = {"chocolate bar", "sour candy", "soft drink", "potato chips"};
     public VendingMachineItem()
     {
