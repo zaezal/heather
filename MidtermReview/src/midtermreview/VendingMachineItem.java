@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-//commit
+//commit 
 package midtermreview;
 
 import java.util.Scanner;
@@ -19,6 +19,8 @@ import java.util.Scanner;
 public class VendingMachineItem 
 {
     public double price;
+    // replace string constants with enumerations
+    // how to? 
     public static String [] candies = {"chocolate bar", "sour candy", "soft drink", "potato chips"};
     public VendingMachineItem()
     {
