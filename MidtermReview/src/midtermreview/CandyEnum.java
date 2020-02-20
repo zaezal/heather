@@ -9,6 +9,7 @@ package midtermreview;
  *
  * @author Heather
  */
+// array file 
 public class CandyEnum {
     chocolate bar,
     sour candy, 
