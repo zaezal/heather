@@ -18,10 +18,11 @@ import java.util.Scanner;
  */
 public class VendingMachineItem 
 {
+    private CandyEnum candyEnum;
     public double price;
     // replace string constants with enumerations
     // how to? I don't know~
-    public static String [] candies = {"chocolate bar", "sour candy", "soft drink", "potato chips"};
+    //public static String [] candies = {"chocolate bar", "sour candy", "soft drink", "potato chips"};
     public VendingMachineItem()
     {
         //intentionally left blank
@@ -53,9 +54,9 @@ public class VendingMachineItem
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to the vendin machine, here is a list of the possible candies");
-        for(int i=0; i<candies.length; i++)
+        for(int i=0; i<candyEnum.length; i++)
         {
-            System.out.println(candies[i]);
+            System.out.println(candyEnum[i]);
         }
         System.out.println("To re-fill the vending machine, please follow instructions in program 2");
         //there is no program 2 because we haven't created an approprite design for this code yet!
